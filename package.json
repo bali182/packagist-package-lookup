@@ -1,6 +1,6 @@
 {
   "name": "packagist-package-lookup",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Package for lookup and query information about packages in the packagist registry",
   "main": "index.js",
   "license": "MIT",
