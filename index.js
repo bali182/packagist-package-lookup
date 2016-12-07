@@ -1,4 +1,4 @@
-var fetch = require('node-fetch');
+var axios = require('axios');
 var semverStable = require('semver-stable');
 var semver = require('semver-utils');
 var memoize = require('lodash.memoize');
@@ -25,8 +25,8 @@ function getSearchByVendorUrl(vendor) {
 
 // utility, so I don't have to call .json() on each request
 function fetchJson(url, options) {
-  return fetch(url, options).then(function (response) {
-    return response.json();
+  return axios.get(url, options).then(function (response) {
+    return response.data;
   });
 }
 
