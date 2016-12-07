@@ -1,7 +1,6 @@
 var packagist = require('./index')
 
 describe('packagist-package-lookup tests', function () {
-
   it('should find packages by name', function () {
     return packagist.searchByName('monolog').then(function (result) {
       expect(result).toBeInstanceOf(Array)
