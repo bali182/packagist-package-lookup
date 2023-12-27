@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^1.6.3",
     "lodash.memoize": "^4.0.1",
     "semver-stable": "^2.0.4",
     "semver-utils": "^1.1.1"
